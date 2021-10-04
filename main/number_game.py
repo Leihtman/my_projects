@@ -5,7 +5,6 @@ def main():
     end = 10
     greeting = "Привет, я хочу сыграть с тобой в игру."
     rules = "Правила такие: я загадываю число от {} до {}. \n У тебя есть 5 попыток на то, чтобы его угадать)".format(start, end)
-    rules = "Правила такие: я загадываю число от 1 до 10. \n У тебя есть 5 попыток на то, чтобы его угадать)".format(start, end)
     my_number = randint(start, end)
     counter = 1
     print(greeting + rules + " Поехали!")
